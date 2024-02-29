@@ -22,7 +22,7 @@
     "smart-contracts",
     "dapps"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "playingcryptogaming@gmail.com",
   "license": "MIT",
   "homepage": "https://github.com/DevWeb3Addict/BlockBinder#readme",
   "dependencies": {
@@ -36,3 +36,4 @@
     "chai": "^4.3.4"
   }
 }
+
