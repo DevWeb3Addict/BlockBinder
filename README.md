@@ -1,6 +1,6 @@
-# BlockWise
+# BlockBinder
 
-Welcome to BlockWise, the ultimate Node.js toolkit for interacting with the Ethereum blockchain. Designed to simplify blockchain integrations for developers, BlockWise enables easy access to Ethereum's core functionalities, including account balance queries, transactions, and smart contract interactions.
+Welcome to BlockBinder, the ultimate Node.js toolkit for interacting with the Ethereum blockchain. Designed to simplify blockchain integrations for developers, BlockBinder enables easy access to Ethereum's core functionalities, including account balance queries, transactions, and smart contract interactions.
 
 ## Features
 
@@ -18,14 +18,14 @@ Welcome to BlockWise, the ultimate Node.js toolkit for interacting with the Ethe
 
 ### Installation
 
-1. Clone the BlockWise repository to your local machine:
+1. Clone the BlockBinder repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/blockwise.git
+   git clone https://github.com/yourusername/BlockBinder.git
    ```
-### Navigate to the BlockWise directory:
+### Navigate to the BlockBinder directory:
 
-cd blockwise
+cd BlockBinder
 
 ### Install the required dependencies:
 
@@ -43,11 +43,11 @@ Note: Keep your private key secure and never share it publicly.
 
 ## Usage
 
-Here's how to get started with some of the core functionalities of BlockWise:
+Here's how to get started with some of the core functionalities of BlockBinder:
 
 ### Querying a Balance:
 
-const { getBalance } = require('./path/to/blockwise');
+const { getBalance } = require('./path/to/BlockBinder');
 
 async function checkBalance() {
   const address = '0x...'; // Ethereum address
@@ -62,7 +62,7 @@ checkBalance();
 
 Sending Ether:
 
-const { sendEther } = require('./path/to/blockwise');
+const { sendEther } = require('./path/to/BlockBinder');
 
 async function transferEther() {
   const fromAddress = process.env.MY_ADDRESS;
@@ -78,7 +78,7 @@ transferEther();
 
 ## Contributing
 
-Contributions to BlockWise are always welcome, whether it's fixing bugs, adding new features, or improving the documentation. Please feel free to fork the repository and submit pull requests.
+Contributions to BlockBinder are always welcome, whether it's fixing bugs, adding new features, or improving the documentation. Please feel free to fork the repository and submit pull requests.
 
 ## Support
 
@@ -86,5 +86,5 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## License
 
-BlockWise is released under the MIT License. See the LICENSE file for more details.
+BlockBinder is released under the MIT License. See the LICENSE file for more details.
 

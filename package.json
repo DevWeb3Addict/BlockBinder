@@ -1,7 +1,7 @@
 {
-  "name": "blockwise",
+  "name": "BlockBinder",
   "version": "1.0.0",
-  "description": "A Node.js application leveraging the ChainTeaNode library for seamless interaction with the Ethereum blockchain. Designed for developers looking to integrate blockchain functionalities into their projects with ease.",
+  "description": "A Node.js application leveraging the BlockBinder library for seamless interaction with the Ethereum blockchain. Designed for developers looking to integrate blockchain functionalities into their projects with ease.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevWeb3Addict/blockwise.git"
+    "url": "https://github.com/DevWeb3Addict/BlockBinder.git"
   },
   "keywords": [
     "ethereum",
@@ -22,9 +22,9 @@
     "smart-contracts",
     "dapps"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "playingcryptogaming@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/DevWeb3Addict/blockwise#readme",
+  "homepage": "https://github.com/DevWeb3Addict/BlockBinder#readme",
   "dependencies": {
     "chainteanode": "^1.0.0",
     "dotenv": "^16.4.5",
@@ -36,3 +36,4 @@
     "chai": "^4.3.4"
   }
 }
+
