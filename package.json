@@ -1,0 +1,38 @@
+{
+  "name": "blockwise",
+  "version": "1.0.0",
+  "description": "A Node.js application leveraging the ChainTeaNode library for seamless interaction with the Ethereum blockchain. Designed for developers looking to integrate blockchain functionalities into their projects with ease.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 10000 tests/*.test.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevWeb3Addict/blockwise.git"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "web3",
+    "nodejs",
+    "crypto",
+    "ethereumjs",
+    "smart-contracts",
+    "dapps"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DevWeb3Addict/blockwise#readme",
+  "dependencies": {
+    "chainteanode": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "web3": "^1.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7",
+    "chai": "^4.3.4"
+  }
+}
